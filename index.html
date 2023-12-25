@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Exercise</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <header>
+            <h2 class="logo">Pkats</h2>
+            <div class="menu">
+                <ul>
+                    <li><a href=""><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+                    <li><a href=""><i class="fa fa-book" aria-hidden="true"></i> Labs <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                        <div class="menu-lab">
+                            <ul>
+                            <li><a href="https://tienphat2104.github.io/Lab4.0/">Lab 4</a></li>
+                            <li><a href="https://tienphat2104.github.io/Lab5/">Lab 5</a></li>
+                            <li class="lab-hover"><a href="">Lab 6 <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                <div class="menu-lab-2">
+                                    <ul>
+                                        <li><a href="https://tienphat2104.github.io/EX1/">EX 1</a></li>
+                                        <li><a href="https://tienphat2104.github.io/EX2/">EX 2</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="https://tienphat2104.github.io/22130205_NgoTienPhat/"><i class="fa fa-user" aria-hidden="true"></i> About</a></li>
+                    <li><a href="https://www.facebook.com/phat.ngo.370177"><i class="fa fa-phone" aria-hidden="true"></i> Contact</a></li>
+                </ul>
+            </div>
+            <button class="btn-login">Login</button>
+        </header>
+        <div class="content">
+            <div class="content-left">
+                <div class="title">
+                    <h1>Web Design &
+                        <br> <span>Development</span>
+                        <br> Course
+                    </h1>
+                </div>
+                <div class="content-main">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+                         Fuga placeat, quibusdam ratione, fugiat explicabo ipsam ducimus adipisci esse,<br>
+                         omnis neque pariatur perspiciatis quaerat ipsa eos dolorem natus nam cum totam.
+                        </p>
+                </div>
+                <button class="btn1">JOIN US</button>
+            </div>
+        <div class="wrapper">
+            <span class="icon-close">
+                <ion-icon name="close-outline"></ion-icon>
+            </span>
+            <div class="form-box login">
+                <h2>Login</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon">
+                        <ion-icon name="mail-outline">
+                        </ion-icon>
+                        </span>
+                        <input type="email" required>
+                        <label for="#">Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon">
+                        <ion-icon name="lock-closed-outline">
+                        </ion-icon>
+                        </span>
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">
+                        Remember me</label>
+                        <a href="#">Forgot Password?</a>
+                    </div>
+                    <button type="submit" class="btn">Login
+                    </button>
+                    <div class="login-register">
+                        <p>Don't have an account?</p>
+                            <a href="#">
+                                <div class="register-link">Register</div>
+                            </a>
+                    </div>
+                </form>
+            </div>
+            <div class="form-box register">
+                <h2>Register</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon">
+                        <ion-icon name="person-add-outline"></ion-icon>
+                        </ion-icon>
+                        </span>
+                        <input type="text" required>
+                        <label for="#">User Name</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon">
+                        <ion-icon name="mail-outline">
+                        </ion-icon>
+                        </span>
+                        <input type="email" required>
+                        <label for="#">Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon">
+                        <ion-icon name="lock-closed-outline">
+                        </ion-icon>
+                        </span>
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">
+                        I agree to the terms & coditions</label>
+                    </div>
+                    <button type="submit" class="btn">Register
+                    </button>
+                    <div class="login-register">
+                        <p>Already have an account?</p>
+                            <a href="#">
+                                <div class="login-link">Login</div>
+                            </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+        </div>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script src="./scenario.js"></script>
+    </body>
+</html>
